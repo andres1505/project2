@@ -1,0 +1,83 @@
+header{
+    background-color: #F6F1F1;
+    padding: 70px 0;
+}
+
+.encabezado{    
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+#titulo1{
+    font-size: 22px;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    right: 0; 
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #19A7CE;
+    text-decoration: underline;
+}
+.imagenPrincipal{
+    width: 100%;
+}
+main{
+    background-color: #F1F6F9;
+    padding: 70px 0;  
+    margin: 0 auto;
+}
+#subtitulo{
+    text-align: center;    
+    color: black;
+    font-weight: bold;
+    font-size: 22px;   
+}
+#descripcionDep{
+    text-align: center;    
+    color: black;
+    line-height: 25px;    
+}
+form{
+    margin: 50px;
+}
+#contacto{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 2;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
+.imagen02{
+    height: 100px;    
+}
